@@ -1,6 +1,7 @@
 ---
 title: go-archive
 ---
+
 **Stream-oriented `tar.gz` archiving for Go: `Create` writes a gzip-compressed tar of filesystem paths to an `io.Writer`, `Extract` reads one from an `io.Reader` into a directory (guarding against zip-slip path traversal), and `List` reports an archive's entry names without writing anything.**
 
 - **Source:** [gomatic/go-archive](https://github.com/gomatic/go-archive)
